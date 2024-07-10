@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
 s.vendored_frameworks = 'Sources/*.xcframework'
 
 # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-spec.requires_arc = true
-spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
+s.requires_arc = true
+s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
 
 
 end
