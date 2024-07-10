@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
 #  s.public_header_files = 'HinaABTest/**/HinaABTestConfigOptions.h', 'HinaABTest/**/HinaABTest.h', 'HinaABTest/**/HinaABTestExperiment.h'
 #  s.resource_bundle = { 'HinaABTesting' => 'HinaABTest/Resources/**/*'}
 
-
+# ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 # 本库提供的framework静态库
-spec.vendored_frameworks = 'Sources/*.xcframework'
+s.vendored_frameworks = 'Sources/*.xcframework'
 
 # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 spec.requires_arc = true
