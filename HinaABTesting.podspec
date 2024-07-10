@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.framework = 'UIKit', 'Foundation'
 
 #  依赖 海纳埋点sdk 最低版本
-  s.dependency 'HinaCloudSDK', '>=4.0.0'
+#  s.dependency 'HinaCloudSDK', '>=4.0.0'
 
 #  s.source_files = 'HinaABTest/**/*.{h,m}'
 #  s.public_header_files = 'HinaABTest/**/HinaABTestConfigOptions.h', 'HinaABTest/**/HinaABTest.h', 'HinaABTest/**/HinaABTestExperiment.h'
