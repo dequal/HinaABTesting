@@ -142,7 +142,7 @@ typedef NS_ENUM(NSInteger, SABUserSubjectType) {
 
 /// 扩展信息
 ///
-/// 试验结果的扩展信息，方便后期扩展其他属性，用于 $ABTestTrigger 事件上报
+/// 试验结果的扩展信息，方便后期扩展其他属性，用于 H_ABTestTrigger 事件上报
 @property (nonatomic, copy) NSDictionary * extendedInfo;
 
 /// 试验结果和默认值是否相同类型

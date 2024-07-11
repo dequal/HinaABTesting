@@ -391,7 +391,7 @@ typedef NS_ENUM(NSUInteger, SABAppLifecycleState) {
 
             // 请求合并，只针对 fast 调用
             [strongSelf.requestManager excuteExperimentsWithRequest:requestData completion:^(HinaABTestExperiment *obj) {
-                // 获取缓存并触发 $ABTestTrigger 事件
+                // 获取缓存并触发 H_ABTestTrigger 事件
                 id cacheValue = [strongSelf fetchCacheABTestWithExperiment:obj];
                 obj.handler(cacheValue ?: obj.defaultValue);
             }];
@@ -422,7 +422,7 @@ typedef NS_ENUM(NSUInteger, SABAppLifecycleState) {
 }
 
 #pragma mark - action
-/// track $ABTestTrigger
+/// track H_ABTestTrigger
 - (void)trackABTestWithData:(SABExperimentResult *)resultData {
     if (!resultData) {
         return;

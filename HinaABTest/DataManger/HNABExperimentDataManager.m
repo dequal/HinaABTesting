@@ -165,8 +165,8 @@ static NSString * const kSABAllHitExperimentResultIdSourcesKey = @"abtest_result
 - (NSDictionary *)queryExtendedPropertiesWithExperimentResult:(SABExperimentResult *)resultData {
     NSMutableDictionary *extendedProperties = [NSMutableDictionary dictionary];
     for (NSString *key in self.trackConfig.extendedPropertyKeys) {
-        // 作为预置属性上报，需要拼接 $
-        NSString *propertyKey = [@"$" stringByAppendingString:key];
+        // 作为预置属性上报，需要拼接 H_
+        NSString *propertyKey = [@"H_" stringByAppendingString:key];
         extendedProperties[propertyKey] = resultData.extendedInfo[key];
     }
     return [extendedProperties copy];

@@ -10,7 +10,7 @@ extern NSString *const kSABLibVersion;
 extern NSString *const kSABMinSupportedSALibVersion;
 
 #pragma mark eventName
-/// $ABTestTrigger 事件名
+/// H_ABTestTrigger 事件名
 extern NSString *const kSABTriggerEventName;
 
 #pragma mark propertyName

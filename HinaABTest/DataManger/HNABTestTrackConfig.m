@@ -33,7 +33,7 @@
                  "item_switch": false,  // 暂不支持
                  "trigger_switch": true,
                  "property_set_switch": false,
-                 "trigger_content_ext": [   // 上报扩展内容，SDK 上报 $ABTestTrigger 事件需要遍历集合中字段追加对应的属性，比如默认情况下，需要上报 abtest_experiment_version、abtest_experiment_result_id 内容
+                 "trigger_content_ext": [   // 上报扩展内容，SDK 上报 H_ABTestTrigger 事件需要遍历集合中字段追加对应的属性，比如默认情况下，需要上报 abtest_experiment_version、abtest_experiment_result_id 内容
                      "abtest_experiment_version",
                      "abtest_experiment_result_id"
                  ],

@@ -7,13 +7,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 事件触发配置
 @interface HNABTestTrackConfig : NSObject<NSCoding>
 
-/// 是否触发 $ABTestTrigger 事件
+/// 是否触发 H_ABTestTrigger 事件
 @property (nonatomic, assign) BOOL triggerSwitch;
 
 /// 是否任意事件都包含试验信息配置
 @property (nonatomic, assign) BOOL propertySwitch;
 
-/// $ABTestTrigger 事件，扩展属性列表
+/// H_ABTestTrigger 事件，扩展属性列表
 @property (nonatomic, copy) NSArray *extendedPropertyKeys;
 
 /// 扩展字段，是否为远程下发配置

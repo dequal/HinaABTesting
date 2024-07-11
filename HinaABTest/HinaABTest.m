@@ -25,7 +25,7 @@ static HinaABTest *sharedABTest = nil;
 
 @implementation HinaABTest
 
-/// 通过配置参数，配置神策 A/B Testing SDK
+/// 通过配置参数，配置海纳A/B Testing SDK
 /// @param configOptions 参数配置
 + (void)startWithConfigOptions:(HinaABTestConfigOptions *)configOptions {
 
@@ -57,7 +57,7 @@ static HinaABTest *sharedABTest = nil;
     SABLogInfo(@"start HinaABTest success");
 }
 
-/// 返回 神策 A/B Testing SDK 单例
+/// 返回 海纳A/B Testing SDK 单例
 + (HinaABTest *)sharedInstance {
     NSAssert(sharedABTest, @"请先使用 startWithConfigOptions: 初始化 HinaABTest SDK");
     return sharedABTest;

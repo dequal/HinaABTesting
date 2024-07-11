@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 请求白名单，只在发送请求成功后更新，只有白名单内的试验参数名，才可能需要重新拉取试验配置
 @property (atomic, strong, readonly) NSArray <NSString *> *fuzzyExperiments;
 
-/// $ABTestTrigger 事件配置
+/// H_ABTestTrigger 事件配置
 @property (atomic, strong, readonly) HNABTestTrackConfig *trackConfig;
 
 /// 当前用户信息
@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 查询出组试验结果
 - (nullable SABExperimentResult *)queryOutResultWithParamName:(NSString *)paramName;
 
-/// 查询 $ABTestTrigger 扩展属性
+/// 查询 H_ABTestTrigger 扩展属性
 /// @param resultData 当前试验数据
 - (nullable NSDictionary *)queryExtendedPropertiesWithExperimentResult:(SABExperimentResult *)resultData;
 
