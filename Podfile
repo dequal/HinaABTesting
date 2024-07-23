@@ -1,4 +1,5 @@
 # Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
 
 workspace 'HinaABTest'
 project './Example/Example.xcodeproj'
@@ -10,9 +11,10 @@ target 'Example-iOS' do
 
 #  pod 'SensorsAnalyticsSDK'
 #  pod 'HinaABTesting'
-
+  
   pod 'HinaABTesting', :path => './'
-  pod 'SensorsAnalyticsSDK', '>= 4.5.6'
+  pod 'HinaCloudSDK', '>= 4.0.1'
+
 
 end
 
