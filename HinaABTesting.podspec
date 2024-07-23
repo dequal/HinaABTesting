@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'HinaABTesting'
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = 'The official iOS/macOS SDK of Hina A/B Testing.'
   s.homepage     = 'https://github.com/dequal/HinaABTesting'
   s.license      = "MIT"
-  s.source       = { :git => 'https://github.com/dequal/HinaABTesting.git', :tag => "0.0.5" }
+  s.source       = { :git => 'https://github.com/dequal/HinaABTesting.git', :tag => "0.0.6" }
   s.author       = 'dequal'
   s.ios.deployment_target = '9.0'
   # s.osx.deployment_target = '10.13'
