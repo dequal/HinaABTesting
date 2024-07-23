@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = 'The official iOS/macOS SDK of Hina A/B Testing.'
   s.homepage     = 'https://github.com/dequal/HinaABTesting'
   s.license      = "MIT"
-  s.source       = { :git => 'https://github.com/dequal/HinaABTesting.git', :tag => "0.0.4" }
+  s.source       = { :git => 'https://github.com/dequal/HinaABTesting.git', :tag => "0.0.5" }
   s.author       = 'dequal'
   s.ios.deployment_target = '9.0'
-  s.osx.deployment_target = '10.13'
+  # s.osx.deployment_target = '10.13'
   s.module_name  = "HinaABTest"
   s.requires_arc = true
   s.cocoapods_version = '>= 1.5.0'
