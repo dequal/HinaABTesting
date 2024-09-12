@@ -8,10 +8,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HinaABTest : NSObject
 
-/// 返回神策 A/B Testing SDK 单例
+/// 返回海纳 A/B Testing SDK 单例
 @property (class, nonatomic, readonly) HinaABTest* sharedInstance NS_SWIFT_NAME(shared);
 
-/// 通过参数配置，开启神策 A/B Testing SDK
+/// 通过参数配置，开启海纳 A/B Testing SDK
 /// @param configOptions 参数配置
 + (void)startWithConfigOptions:(HinaABTestConfigOptions *)configOptions NS_SWIFT_NAME(start(configOptions:));
 

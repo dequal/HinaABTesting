@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		RzsuDW5uQegXlb5g+IdaOeizthY=
-		</data>
 		<key>Headers/HinaABTest.h</key>
 		<data>
-		Rpj2NDWlk0TMYgzO8iIIa/pLqAI=
+		m29NK97Ayllif2oQ5KQckAPbQjs=
 		</data>
 		<key>Headers/HinaABTestConfigOptions.h</key>
 		<data>
@@ -47,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rpj2NDWlk0TMYgzO8iIIa/pLqAI=
+			m29NK97Ayllif2oQ5KQckAPbQjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			3J2V8CfjZHpaebTj97MBSrGT90oijy61twvBIKnRGug=
+			GYvsXu+QZFzLzhLH+F7IRzWWUVsHg/6pmmBpAhIYx1s=
 			</data>
 		</dict>
 		<key>Headers/HinaABTestConfigOptions.h</key>
